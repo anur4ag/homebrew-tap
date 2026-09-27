@@ -1,18 +1,18 @@
 class Ballast < Formula
   desc "Keep your machine responsive while coding agents work"
   homepage "https://github.com/anur4ag/ballast"
-  version "0.1.0-alpha.3"
+  version "0.1.0-alpha.4"
   license any_of: ["MIT", "Apache-2.0"]
   depends_on macos: :big_sur
 
   on_arm do
-    url "https://github.com/anur4ag/ballast/releases/download/v0.1.0-alpha.3/ballast-0.1.0-alpha.3-aarch64-apple-darwin.tar.gz"
-    sha256 "e30dcf26318c7014a133d371a952e3db7a4c0f220b783c27aceadb58c64cbb3e"
+    url "https://github.com/anur4ag/ballast/releases/download/v0.1.0-alpha.4/ballast-0.1.0-alpha.4-aarch64-apple-darwin.tar.gz"
+    sha256 "3b3769fa53c7c66b84d06fe88597f94d70b7ba82f84c327b7935df0da271fa4e"
   end
 
   on_intel do
-    url "https://github.com/anur4ag/ballast/releases/download/v0.1.0-alpha.3/ballast-0.1.0-alpha.3-x86_64-apple-darwin.tar.gz"
-    sha256 "c57cbc53c50c6341729124309206c743f5fe54af28b65c4479249258fccb901d"
+    url "https://github.com/anur4ag/ballast/releases/download/v0.1.0-alpha.4/ballast-0.1.0-alpha.4-x86_64-apple-darwin.tar.gz"
+    sha256 "1a2fa058df5e0da4fe4fc44d84551f281472df8dba927296b5bfcd531319e4fa"
   end
 
   def install
